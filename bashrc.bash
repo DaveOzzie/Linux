@@ -4,9 +4,6 @@
 # timedatectl set-timezone Australia/Sydney
 # apt install duf
 
-# wget -O .bashrc    https://raw.githubusercontent.com/DaveOzzie/Linux/main/bashrc.bash
-# wget -O .dircolors https://raw.githubusercontent.com/DaveOzzie/Linux/main/dircolors.txt
-
 # URLS
 # vault 192.168.20.1
 
