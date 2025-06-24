@@ -1,4 +1,4 @@
-# OZ BASH 2025-06-21
+# OZ BASH 2025-06-24
 
 # INFO
 # timedatectl set-timezone Australia/Sydney
@@ -42,9 +42,9 @@ alias lx='ls -lXBh'               # sort by extension
 
 alias bashit='source ~/.bashrc'
 alias bashed='nano ~/.bashrc'
-alias bashup='wget -O .bashrc https://raw.githubusercontent.com/DaveOzzie/Linux/main/bashrc.bash'
-alias colorup='wget -O .dircolors https://raw.githubusercontent.com/DaveOzzie/Linux/main/dircolors.txt'
-alias dc='nano ~/.dircolors'
+alias bashup='wget -O ~/.bashrc https://raw.githubusercontent.com/DaveOzzie/Linux/main/bashrc.bash'
+alias colorup='wget -O ~/.dircolors https://raw.githubusercontent.com/DaveOzzie/Linux/main/dircolors.txt'
+alias colored='nano ~/.dircolors'
 
 alias resolv='nano /etc/resolv.conf'
 
