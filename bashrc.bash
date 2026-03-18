@@ -46,12 +46,14 @@ alias bashup='wget -O ~/.bashrc https://raw.githubusercontent.com/DaveOzzie/Linu
 alias colorup='wget -O ~/.dircolors https://raw.githubusercontent.com/DaveOzzie/Linux/main/dircolors.txt'
 alias colored='nano ~/.dircolors'
 
-alias resolv='nano /etc/resolv.conf'
+alias os='hostnamectl'
 
 alias pingg='ping -c 3 google.com'
 alias pingv='ping -c 3 192.168.20.1'
 
 alias fstab='nano /etc/fstab'
+
+alias resolv='nano /etc/resolv.conf'
 
 alias sambav='smbclient -L 192.168.20.1'
 
