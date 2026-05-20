@@ -1,4 +1,4 @@
-# OZ BASH 2026-05-20
+# OZ BASH 2026-05-20.2
 
 # INFO
 # timedatectl set-timezone Australia/Sydney
@@ -61,8 +61,8 @@ alias rm='rm -i'
 alias cp='cp -i'
 alias mv='mv -i'
 
-alias own='chown root:root *'
-alias mod='chmod -R 777 *'
+alias own='chown root:root'
+alias mod='chmod -R 777'
 alias www='cd /var/www'
 
 PS1='\[\e[93m\]\t\[\e[0m\] \[\e[38;5;40m\]\u@\h\[\e[0m\] \[\e[38;5;45m\]\w\[\e[0m\]\$'
