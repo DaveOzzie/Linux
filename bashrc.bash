@@ -1,4 +1,4 @@
-# OZ BASH 2026-11-06.2
+# OZ BASH 2026-11-07
 
 # INFO
 # timedatectl set-timezone Australia/Sydney
@@ -66,6 +66,7 @@ alias mod='chmod -R 777'
 alias www='cd /var/www'
 alias wwwmod='chmod -R 777 /var/www'
 alias wwwown='chown -R root:root /var/www'
+alias wwwpy='python3 -m http.server'
 
 alias www='cd /var/www'
 
