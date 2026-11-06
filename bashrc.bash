@@ -1,4 +1,4 @@
-# OZ BASH 2026-11-07.3
+alias ozver='echo OZ BASH 2026-11-07.4'
 
 # INFO
 # timedatectl set-timezone Australia/Sydney
@@ -40,7 +40,7 @@ alias lu='ls -lturh'              # sort by access time
 alias lw='ls -xAh'                # wide listing format
 alias lx='ls -lXBh'               # sort by extension
 
-alias bashit='source ~/.bashrc'
+alias bashit='source ~/.bashrc && ozver'
 alias bashed='nano ~/.bashrc'
 alias bashup='wget -O ~/.bashrc https://raw.githubusercontent.com/DaveOzzie/Linux/main/bashrc.bash'
 alias colorup='wget -O ~/.dircolors https://raw.githubusercontent.com/DaveOzzie/Linux/main/dircolors.txt'
