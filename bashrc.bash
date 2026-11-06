@@ -1,4 +1,4 @@
-# OZ BASH 2026-11-07.2
+# OZ BASH 2026-11-07.3
 
 # INFO
 # timedatectl set-timezone Australia/Sydney
@@ -67,8 +67,6 @@ alias www='cd /var/www'
 alias wwwmod='chmod -R 777 /var/www'
 alias wwwown='chown -R root:root /var/www'
 alias wwwpy='cd /var/www && python3 -m http.server'
-
-alias www='cd /var/www'
 
 PS1='\[\e[93m\]\t\[\e[0m\] \[\e[38;5;40m\]\u@\h\[\e[0m\] \[\e[38;5;45m\]\w\[\e[0m\]\$'
 export TERM='xterm-256color'
